@@ -195,9 +195,8 @@ C:\Users\Mogli\Documents\Progra_Web_II\QuizRepo\MyQuiz\MyQuiz\bin\es\Microsoft.O
 C:\Users\Mogli\Documents\Progra_Web_II\QuizRepo\MyQuiz\MyQuiz\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
 C:\Users\Mogli\Documents\Progra_Web_II\QuizRepo\MyQuiz\MyQuiz\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
 C:\Users\Mogli\Documents\Progra_Web_II\QuizRepo\MyQuiz\MyQuiz\bin\es\System.Web.Http.Owin.resources.dll
-C:\Users\Mogli\Documents\Progra_Web_II\QuizRepo\MyQuiz\MyQuiz\obj\Debug\MyQuiz.csprojResolveAssemblyReference.cache
+C:\Users\Mogli\Documents\Progra_Web_II\QuizRepo\MyQuiz\MyQuiz\obj\Debug\MyQuiz.Migrations.create_animal_table.resources
+C:\Users\Mogli\Documents\Progra_Web_II\QuizRepo\MyQuiz\MyQuiz\obj\Debug\MyQuiz.Migrations.create_person_table.resources
+C:\Users\Mogli\Documents\Progra_Web_II\QuizRepo\MyQuiz\MyQuiz\obj\Debug\MyQuiz.csproj.GenerateResource.Cache
 C:\Users\Mogli\Documents\Progra_Web_II\QuizRepo\MyQuiz\MyQuiz\obj\Debug\MyQuiz.dll
 C:\Users\Mogli\Documents\Progra_Web_II\QuizRepo\MyQuiz\MyQuiz\obj\Debug\MyQuiz.pdb
-C:\Users\Mogli\Documents\Progra_Web_II\QuizRepo\MyQuiz\MyQuiz\obj\Debug\MyQuiz.Migrations.create_animal_table.resources
-C:\Users\Mogli\Documents\Progra_Web_II\QuizRepo\MyQuiz\MyQuiz\obj\Debug\MyQuiz.csproj.GenerateResource.Cache
-C:\Users\Mogli\Documents\Progra_Web_II\QuizRepo\MyQuiz\MyQuiz\obj\Debug\MyQuiz.Migrations.create_person_table.resources
