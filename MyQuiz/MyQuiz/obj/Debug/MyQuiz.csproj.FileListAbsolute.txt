@@ -187,3 +187,6 @@ C:\Users\Mogli\Documents\Progra_Web_II\QuizRepo\MyQuiz\MyQuiz\obj\Debug\MyQuiz.c
 C:\Users\Mogli\Documents\Progra_Web_II\QuizRepo\MyQuiz\MyQuiz\obj\Debug\MyQuiz.dll
 C:\Users\Mogli\Documents\Progra_Web_II\QuizRepo\MyQuiz\MyQuiz\obj\Debug\MyQuiz.pdb
 C:\Users\Mogli\Documents\Progra_Web_II\QuizRepo\MyQuiz\MyQuiz\obj\Debug\MyQuiz.csprojResolveAssemblyReference.cache
+C:\Users\Mogli\Documents\Progra_Web_II\QuizRepo\MyQuiz\MyQuiz\bin\System.Web.Cors.dll
+C:\Users\Mogli\Documents\Progra_Web_II\QuizRepo\MyQuiz\MyQuiz\bin\System.Web.Http.Cors.dll
+C:\Users\Mogli\Documents\Progra_Web_II\QuizRepo\MyQuiz\MyQuiz\bin\System.Web.Http.Cors.xml

@@ -7,11 +7,13 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using System.Web.Http.Description;
 using MyQuiz.Models;
 
 namespace MyQuiz.Controllers
 {
+    [EnableCors(origins: "http://quizprojectapi.apphb.com",headers:"*",methods:"*")]
     public class PersonController : ApiController
     {
         private ApplicationDbContext db = new ApplicationDbContext();
