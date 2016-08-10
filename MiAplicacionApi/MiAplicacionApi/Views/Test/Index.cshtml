@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<div class="hero-unit">
+    <h2>Get All</h2>
+    <div>
+        <table id="tblList" class="table table-bordered table-hover">
+            <thead>
+            <tr>
+            <th>Nombre</th>
+            <th>Descripcion</th>
+            <tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <h2> Get One</h2>
+    <div>
+        <ul>
+            <li>
+                <label>Id:</label>
+                <input type="text" id="textIdSearch2"/>
+                <input type="button" id="btnSearch2" value="Search"/>
+            </li>
+            <li>
+                <label>Nombre</label>
+                <input type="text" id="txtName2"/>
+            </li>
+            <li>
+                <label>Descripcion</label>
+                <input type="text" id="txtDescripcion"/>
+            </li>
+        </ul>
+        <input type="button" id="btnDelete" value="Delete"/>
+        <input type="button" id="btnUpdate" value="Update"/>
+        <input type="button" id="btnCreate" value="Create"/>
+    </div>
+</div>
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/MyScript2")
+
