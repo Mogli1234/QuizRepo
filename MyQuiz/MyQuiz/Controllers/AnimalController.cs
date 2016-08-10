@@ -15,13 +15,13 @@ namespace MyQuiz.Controllers
     public class AnimalController : ApiController
     {
         private ApplicationDbContext db = new ApplicationDbContext();
-
+        [AllowAnonymous]
         // GET: api/Animal
         public IQueryable<Animal> GetAnimales()
         {
             return db.Animales;
         }
-
+        [AllowAnonymous]
         // GET: api/Animal/5
         [ResponseType(typeof(Animal))]
         public IHttpActionResult GetAnimal(int id)
@@ -36,6 +36,7 @@ namespace MyQuiz.Controllers
         }
 
         // PUT: api/Animal/5
+        [AllowAnonymous]
         [ResponseType(typeof(void))]
         public IHttpActionResult PutAnimal(int id, Animal animal)
         {
@@ -71,6 +72,7 @@ namespace MyQuiz.Controllers
         }
 
         // POST: api/Animal
+        [AllowAnonymous]
         [ResponseType(typeof(Animal))]
         public IHttpActionResult PostAnimal(Animal animal)
         {
@@ -86,6 +88,7 @@ namespace MyQuiz.Controllers
         }
 
         // DELETE: api/Animal/5
+        [AllowAnonymous]
         [ResponseType(typeof(Animal))]
         public IHttpActionResult DeleteAnimal(int id)
         {
@@ -100,7 +103,7 @@ namespace MyQuiz.Controllers
 
             return Ok(animal);
         }
-
+        [AllowAnonymous]
         protected override void Dispose(bool disposing)
         {
             if (disposing)
@@ -109,7 +112,7 @@ namespace MyQuiz.Controllers
             }
             base.Dispose(disposing);
         }
-
+        [AllowAnonymous]
         private bool AnimalExists(int id)
         {
             return db.Animales.Count(e => e.ID == id) > 0;

@@ -17,12 +17,14 @@ namespace MyQuiz.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: api/Person
+        [AllowAnonymous]
         public IQueryable<Person> GetPersons()
         {
             return db.Persons;
         }
 
         // GET: api/Person/5
+        [AllowAnonymous]
         [ResponseType(typeof(Person))]
         public IHttpActionResult GetPerson(int id)
         {
@@ -37,6 +39,7 @@ namespace MyQuiz.Controllers
 
         // PUT: api/Person/5
         [ResponseType(typeof(void))]
+        [AllowAnonymous]
         public IHttpActionResult PutPerson(int id, Person person)
         {
             if (!ModelState.IsValid)
@@ -71,6 +74,7 @@ namespace MyQuiz.Controllers
         }
 
         // POST: api/Person
+        [AllowAnonymous]
         [ResponseType(typeof(Person))]
         public IHttpActionResult PostPerson(Person person)
         {
@@ -86,6 +90,7 @@ namespace MyQuiz.Controllers
         }
 
         // DELETE: api/Person/5
+        [AllowAnonymous]
         [ResponseType(typeof(Person))]
         public IHttpActionResult DeletePerson(int id)
         {
@@ -100,7 +105,7 @@ namespace MyQuiz.Controllers
 
             return Ok(person);
         }
-
+        [AllowAnonymous]
         protected override void Dispose(bool disposing)
         {
             if (disposing)
@@ -109,7 +114,7 @@ namespace MyQuiz.Controllers
             }
             base.Dispose(disposing);
         }
-
+        [AllowAnonymous]
         private bool PersonExists(int id)
         {
             return db.Persons.Count(e => e.ID == id) > 0;
